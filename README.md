@@ -10,6 +10,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```
+[SYProxy proxyWithTarget:self]
+```
+
 ## Author
 
 YangShi123, shiyawn@163.com
