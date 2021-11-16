@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SYProxy_Example' do
+  pod 'SYProxy', :path => '../'
+
+  target 'SYProxy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
