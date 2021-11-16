@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SYProxy.svg?style=flat)](https://cocoapods.org/pods/SYProxy)
 [![License](https://img.shields.io/cocoapods/l/SYProxy.svg?style=flat)](https://cocoapods.org/pods/SYProxy)
 [![Platform](https://img.shields.io/cocoapods/p/SYProxy.svg?style=flat)](https://cocoapods.org/pods/SYProxy)
+代理者，解决循环引用的中间件
 
 ## Example
 
