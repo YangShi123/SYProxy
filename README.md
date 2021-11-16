@@ -1,7 +1,6 @@
 # SYProxy
 
 [![CI Status](https://img.shields.io/travis/YangShi123/SYProxy.svg?style=flat)](https://travis-ci.org/YangShi123/SYProxy)
-[![Version](https://img.shields.io/cocoapods/v/SYProxy.svg?style=flat)](https://cocoapods.org/pods/SYProxy)
 [![License](https://img.shields.io/cocoapods/l/SYProxy.svg?style=flat)](https://cocoapods.org/pods/SYProxy)
 [![Platform](https://img.shields.io/cocoapods/p/SYProxy.svg?style=flat)](https://cocoapods.org/pods/SYProxy)
 
