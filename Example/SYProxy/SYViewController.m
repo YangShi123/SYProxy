@@ -7,8 +7,11 @@
 //
 
 #import "SYViewController.h"
+#import "SYProxy.h"
 
 @interface SYViewController ()
+
+@property (nonatomic, strong) NSTimer * timer;
 
 @end
 
@@ -18,6 +21,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:[SYProxy proxyWithTarget:self] selector:@selector(test) userInfo:nil repeats:YES];
+}
+
+- (void)test {
+    NSLog(@"任务");
+}
+
+- (void)dealloc {
+    [self.timer invalidate];
+    NSLog(@"%s", __func__);
 }
 
 - (void)didReceiveMemoryWarning
